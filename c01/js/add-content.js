@@ -3,7 +3,7 @@ var houerNow = today.getHours();
 var greeting;
 
 if (houerNow > 18) { 
-    greeting = "Dobr wieczór!";
+    greeting = "Dzień wieczór!";
 } else if (houerNow > 12 ) {
     greeting = "Dzień dobry!";
 } else if (houerNow > 0 ){

@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 1400px;
+    height: 4072px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.navtop {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    border-bottom: 50px;
+    border-color: white;
+}
+
+.navtop div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.asiapic {
+    width: 1400px;
+    height: 1000px;
+    background-image: url("image/photo-1457706924510-773-f-3-c-796-de-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
